@@ -1,0 +1,11 @@
+version: "3"
+services:
+    client:
+        network_mode: bridge
+        restart: always
+        container_name: saludatuservicio
+        image: nginx
+        ports:
+            - 20102:80
+        volumes:
+            - ./src:/usr/share/nginx/html

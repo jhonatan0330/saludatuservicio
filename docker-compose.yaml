@@ -6,6 +6,6 @@ services:
         container_name: saludatuservicio
         image: nginx
         ports:
-            - 20102:80
+            - 20103:80
         volumes:
             - ./src:/usr/share/nginx/html

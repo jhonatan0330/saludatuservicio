@@ -13,6 +13,9 @@
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+    .header_section{
+        position: relative;
+    }
     .logo {
         text-align: center;
     }
@@ -341,7 +344,8 @@
         font-size: 13px;
     }
     .taital_main {
-        margin-top: 20px;
+        margin-top: 80px;
+        margin-left: 0px;
     }
     .contact_bt {
         display: none;
@@ -721,7 +725,7 @@
     }
     .logo {
         position: inherit;
-        left: -40px;
+        /*left: -40px;*/
     }
     .round {
         display: none;
@@ -753,7 +757,7 @@
         display: none;
     }
     .taital_main {
-        margin-top: 30px;
+        margin-top: 100px;
     }
     .contact_bt {
         display: none;

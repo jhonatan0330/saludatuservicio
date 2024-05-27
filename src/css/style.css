@@ -6,10 +6,10 @@
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
-@import url(css/font-awesome.min.css);
+/* @import url(css/font-awesome.min.css); */
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
+/* @import url(swiper.min.css); */
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
@@ -217,6 +217,7 @@ button {
     height: auto;
     padding-top: 15px;
     padding-bottom: 5px;
+    position: absolute;
 }
 
 .menu_text {
@@ -246,6 +247,7 @@ button {
     float: left;
     background-color: #a066cb;
     height: auto;
+    padding-top: 30px;
 }
 
 #carouselExampleIndicators a.carousel-control-prev {
@@ -301,7 +303,7 @@ button {
 
 .logo {
     position: relative;
-    left: -83px;
+    /*left: -83px;*/
 }
 
 .round {
@@ -327,7 +329,8 @@ button {
 .taital_main {
     width: 100%;
     float: left;
-    margin-top: 80px;
+    margin-top: 100px;
+    margin-left: -100px;
 }
 
 .construction_text {
@@ -484,7 +487,7 @@ button {
     font-size: 18px;
     color: #090a0b;
     margin-left: 0px;
-    text-align: center;
+    text-align: justify;
 }
 
 .bt_main {
